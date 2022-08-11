@@ -1,0 +1,51 @@
+.post{
+    width:700px ;
+    min-height: 320px;
+    background-color: rgba(21,32,43,255);;
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+
+.user__img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+}
+.post__body{
+    display: flex;
+    padding: 10px 0 0 10px;
+
+}
+
+.post__item{
+
+    display: flex;
+    flex-direction: column;
+}
+.user__info {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+
+}
+.user__name{
+    margin-right: 15px;
+    font-weight: 700;
+}
+.post__date,
+.user__nickname{
+    color: gray;
+    margin-right: 15px;
+}
+.post__content{
+    margin: 10px 0;
+}
+
+.content__img{
+    width: 500px;
+    height: 100%;
+    border-radius: 15px;
+}
