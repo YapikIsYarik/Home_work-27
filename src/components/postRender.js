@@ -66,7 +66,7 @@ class PostRender extends Component {
                             <div className="post__reactions">
                                 <div onClick={this.handleChangeLikes} className="post__like">
                                     <span>
-                                        <img className='post__like-icon reaction-icon' src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670153.png?token=exp=1660395153~hmac=8f85a1fd9dbab33beb9190b8f81ceea2" alt="like"/>
+                                        <img className='post__like-icon reaction-icon' src="https://cdn-icons-png.flaticon.com/512/889/889140.png" alt="like"/>
                                     </span>
                                     {data.like}
                                 </div>
