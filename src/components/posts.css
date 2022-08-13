@@ -1,12 +1,13 @@
-.post{
-    width:700px ;
+.post {
+    width: 700px;
     min-height: 320px;
-    background-color: rgba(21,32,43,255);;
+    background-color: rgba(21, 32, 43, 255);;
     color: #fff;
     border-radius: 15px;
     margin-bottom: 20px;
-
+    display: flex;
 }
+
 
 .user__img{
     width: 80px;
@@ -17,7 +18,7 @@
 .post__body{
     display: flex;
     padding: 10px 0 0 10px;
-
+flex-direction: column;
 }
 
 .post__item{
@@ -48,4 +49,20 @@
     width: 500px;
     height: 100%;
     border-radius: 15px;
+}
+.post__reactions{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0 0  0;
+}
+.post__share,
+.post__comment,
+.post__like{
+    display: flex;
+    align-items: center;
+}
+.reaction-icon{
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
 }

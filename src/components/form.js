@@ -19,7 +19,6 @@ class Form extends Component {
         this.setState({postText: ''})
         this.setState({postImg: ''})
         this.setState({postSelect: ''})
-        console.log(this.postText)
     }
 
     render() {
